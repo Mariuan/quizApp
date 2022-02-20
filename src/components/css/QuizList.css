@@ -1,0 +1,92 @@
+ul {
+    list-style-type: none;
+    text-align: justify;
+    padding: 0;
+}
+
+.quiz-list_item {
+    display: inline-block;
+    margin: 20px;
+    width: 250px;
+    box-shadow: 5px 5px 15px #222;
+    border: 1px solid #999;
+    border-radius: 3px;
+}
+
+.item_title-holder {
+    background: #222;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+.item_title {
+    color: #fff;
+    font-weight: 500;
+    margin: 5px 0;
+}
+
+.item_button-holder {
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.item_button {
+    padding: 6px 25px;
+    background: #222;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.item_edit-holder {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.item_edit {
+    padding: 5px 10px;
+    background: none;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.item_edit-options {
+    display: none;
+    position: absolute;
+    background: #fff;
+    border:  1px solid #999;
+    right: 0;
+    top: 10px;
+    box-shadow: 5px 5px 15px #222;
+    border-radius: 2px;
+}
+
+.item_edit-options p {
+    position: relative;
+    margin: 0;
+    padding: 5px 10px;
+    font-weight: 500;
+    font-size: 14px;
+    cursor: pointer;
+    z-index: 6;
+}
+
+.active-option {
+    display: block;
+}
+
+.edit-option_close-cover {
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+}
